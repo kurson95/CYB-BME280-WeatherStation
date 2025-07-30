@@ -1,0 +1,16 @@
+SET(SOURCES ui_Home.c
+    ui_Water.c
+    ui_Settings.c
+    ui_WifiSet.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    ui_img_back_png.c
+    ui_img_1845835166.c
+    ui_img_197579651.c
+    ui_img_1156566852.c
+    ui_img_376556310.c
+    ui_img_wifi_png.c)
+
+add_library(ui ${SOURCES})
